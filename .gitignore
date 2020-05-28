@@ -1,0 +1,45 @@
+# Project exclude paths
+/my-rpc-client/target/
+/my-rpc-codec/target/
+/my-rpc-common/target/
+/my-rpc-example/target/
+/my-rpc-protocol/target/
+/my-rpc-server/target/
+/my-rpc-transport/target/
+
+#java
+*.class
+
+#package file
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+#maven ignore
+target/
+build/
+
+#eclipse ignore
+.settings/
+.project
+.classpatch
+
+#Intellij idea
+.idea/
+/idea/
+*.ipr
+*.iml
+*.iws
+
+# temp file
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
+
+# system ignore
+.DS_Store
+Thumbs.db
+
